@@ -11,21 +11,21 @@ namespace Фасхиева_ПР3
         private double height; //рост
         private double weight; //вес
 
-        public double getWeight
+        public double getWeight 
         {
             set
             {
                 weight = value;
             }
         }
-        public double getHeight
+        public double getHeight 
         {
             set
             {
                 height = value;
             }
         }
-        public string bodyWeight // масса тела
+        public string bodyWeight // изменено название метода на более понятное
         {
             get
             {

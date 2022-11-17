@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Фасхиева_ПР3
 {
-    internal class ActionAChar
+    internal class ActionAChar //изменено название класса
     {
         public static string txt;
         public static void DeletALineOfProccess(int numberDelete) //Изменено название метода на более понятное

@@ -19,7 +19,7 @@ namespace Фасхиева_ПР3
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine($"Исключение -> {ex.Message}");
             }
         }
         public static int operator +(ManipulationOfCalculations a, ManipulationOfCalculations b)

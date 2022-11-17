@@ -13,6 +13,7 @@ namespace Фасхиева_ПР3
             Console.WriteLine(obj);
             NumbersManipul obj1 = new NumbersManipul();
             Console.WriteLine(obj1);
+            Console.WriteLine();
 
             Console.WriteLine("Задача №2");
             Console.WriteLine("Введите строку: ");
@@ -20,6 +21,7 @@ namespace Фасхиева_ПР3
             Console.WriteLine("Введите индекс: ");
             int k = Convert.ToInt32(Console.ReadLine());
             ActionAChar.DeletALineOfProccess(k);
+            Console.WriteLine();
 
             Console.WriteLine("Задача №4");
             BodyWeightCalculation ind = new BodyWeightCalculation();
@@ -28,6 +30,7 @@ namespace Фасхиева_ПР3
             Console.WriteLine("Введите вес: ");
             ind.getWeight = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(ind.bodyWeight);
+            Console.WriteLine();
 
             Console.WriteLine("Задача №3");
             Console.WriteLine("Введите первую строку: ");
